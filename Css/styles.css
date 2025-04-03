@@ -1,0 +1,141 @@
+/* TODO: INCLUIR ARCHIVO RESET.CSS / SEPARAR SECCIONES EN CSS */
+/* TODO : MIRAR SCROOL INFERIOR */
+body {
+    background-color: hsl(0, 100%, 74%);
+    background-image: url(../images/bg-intro-desktop.png);
+    font-family: poppins, Arial, Helvetica, sans-serif;
+}
+
+main {
+    max-width: 1440px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    margin-left: 250px;
+}
+
+.section__left {
+    min-width: 720px;
+    height: 800px;
+    padding: 30px;
+}
+
+.left__container {
+    max-width: 520px;
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: ce;
+    border: 2px red solid;
+}
+
+.section__right {
+    min-width: 720px;
+    padding: 30px;
+}
+
+.right__container {
+    display: flex;
+    flex-direction: column;
+    max-width: 720px;
+    height: 800px;
+    border: 2px solid black;
+}
+
+.right__container-header {
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    box-shadow: 5px 6px 24px 2px rgba(0,0,0,0.72);
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.right__container-form {
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 5px 6px 24px 2px rgba(0,0,0,0.72);
+    margin-top: 4rem;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    height: 100%;
+
+}
+
+.form__input {
+    margin-top: -50px;
+    margin-left: 40px;
+}
+
+
+input {
+    margin: 40px;
+    padding: 5px;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 2px solid hsl(0, 100%, 74%);
+    box-shadow: 5px 6px 24px 2px rgba(211, 208, 208, 0.72);
+    border-radius: 5px;
+}
+
+::placeholder{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 1.5rem;
+}
+
+
+.error-message {
+    position: relative;
+    display: none;
+    color: red;
+    left: 310px;
+    bottom: 10px;
+    margin-right: 0;
+}
+
+.error-icon {
+    /* display: none; */
+    position: relative;
+    left: 500px;
+    bottom: 83px;
+
+}
+
+
+.form__button{
+    display: flex;
+    justify-content: center;
+}
+button {
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    color: aliceblue;
+    font-weight: 800;
+    background-color: hsl(154, 59%, 51%);
+    box-shadow: 5px 6px 24px 2px rgba(79, 158, 128, 0.72);
+    margin: 40px;
+    padding: 5px;
+    width: 490px;
+    height: 50px;
+    margin-bottom: 15px;
+    border: 2px solid hsl(0, 100%, 74%);
+    border-radius: 5px;
+}
+
+.form__footer {
+    color:hsl(246, 25%, 77%);
+    font-weight: lighter;
+    text-align: center;
+}
+
+.form__footer a:hover, button:hover {
+    cursor: pointer;
+    background-color: yellowgreen;
+}
+
