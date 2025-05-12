@@ -93,14 +93,14 @@ document.addEventListener("DOMContentLoaded", () => {
         console.log('Password : ', passwordValue);
 
         // GUARDAMOS LOS VALORES EN LOCALSTORAGE PARA UTILIZARLOS LUEGO
-        localStorage.setItem('Name', nameValue);
-        localStorage.setItem('Lastname', lastNameValue);
-        localStorage.setItem('Email', emailValue);
-        localStorage.setItem('Password', passwordValue);
+        localStorage.setItem('name', nameValue);
+        localStorage.setItem('lastname', lastNameValue);
+        localStorage.setItem('email', emailValue);
+        localStorage.setItem('password', passwordValue);
 
         // PARA REDIRIGIR A OTRA PAGINA, CUANDO LA TENGAMOS PREPARADA
 
-        window.location.href = "#";
+        window.location.href = "/resultados.html";
 
     });
 });

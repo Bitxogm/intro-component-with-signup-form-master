@@ -145,3 +145,23 @@ button {
     cursor: pointer;
     background-color: yellowgreen;
 }
+
+.footer {
+    margin-top: 6rem;
+}
+
+.attribution {
+    font-size: 1.2rem;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: chartreuse;
+    font-style: italic;
+}
+
+ a  {
+    text-decoration: none;
+ }  
+    
