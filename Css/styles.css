@@ -81,6 +81,8 @@ main {
 
 
 input {
+    text-align: justify;
+    font-size: 1.5rem;
     margin: 30px;
     margin-top: 40px;
     padding:5px;
@@ -120,7 +122,7 @@ input {
 .form__button{
     display: flex;
     justify-content: center;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 button {
     min-width: 600px;

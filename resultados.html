@@ -1,34 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Resultados Formulario</title>
-  <link rel="stylesheet" href="Css/styles.css">
+  <link rel="stylesheet" href="Css/resultados.css">
 </head>
+
 <body>
+  <div class="results_wrapper">
+
 
     <div class=" right__container-form">
 
       <div id="formulario-resultados ">
-
-        <div class="form__input">
-          <input type="text" id="name" placeholder="Name :" >
-        </div>
-        <div class="form__input">
-          <input type="text" id="lastname" placeholder="Last Name : " >
+        <div class="right__container-header">
+          <h3 class="right__-title">You're logged with this personal data</h3>
         </div>
 
         <div class="form__input">
-          <input type="email" id="email" placeholder="Email Address : " >
+          <input type="text" id="name" placeholder="Name :">
+        </div>
+        <div class="form__input">
+          <input type="text" id="lastname" placeholder="Last Name : ">
         </div>
 
         <div class="form__input">
-          <input type="password" id="password" placeholder="Password :" >
+          <input type="email" id="email" placeholder="Email Address : ">
         </div>
+
+        <div class="form__validate">
+          <input type="password" id="password" placeholder="Password :">
+        </div>
+        <div class="form__button-validate">
+          <button id="button-validate"  class="button-validate" >If you personal data it's submit</button>
+        </div>
+
 
       </div>
     </div>
-  <script src="/JS/resultados.js"></script>
+  </div>
+  <script src="/Js/resultados.js"></script>
+  <script src="Js/validate.js"></script>
 </body>
+
 </html>
